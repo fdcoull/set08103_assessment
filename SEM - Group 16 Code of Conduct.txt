@@ -1,6 +1,6 @@
-﻿#Code of Conduct
-##Software Engineering Methods SET 08103- Group 16
-###Jade Ruthven, Lewis Melrose, Finlay Coull, Ross Dougal
+﻿Code of Conduct
+Software Engineering Methods SET 08103- Group 16
+Jade Ruthven, Lewis Melrose, Finlay Coull, Ross Dougal
 
 
 As members of Group 16 in the Software Engineering Methods SET 08103 Module at Edinburgh Napier University, we as individuals and team members have the responsibility to work constructively, provide a positive and inclusive work environment, and represent a productive team.
