@@ -7,5 +7,12 @@ As members of Group 16 in the Software Engineering Methods SET 08103 Module at E
 
 **TEAMWORK:** Members of Group 16 should act in terms of the public interest. Meaning that what work is done, is done solely for the benefit of the group and the work that is being done. Members should not act out of self-interest or with the intention of scoring more favorably within the module Software Engineering Methods SET 8103.
 
-
 **OBJECTIVITY:** Our objectivity maintains that we as a group will follow and work through any issue that may arise so that as a cohesive team we can completely and effectively finish what the client is asking of our group.
+
+**ACCOUNTABILITY:** Members of Group 16 have a responsibility and agency to show up to daily stand-ups[^1], as well as the weekly lab accompanying the Software Engineering Methods SET 8103 module. If a member misses one(1) meeting and has not notified the rest of the team/have no excuse within reason as to their absence, they will buy the other members coffee for the next calendar meeting. If a member is absent three(3) or more times from allocated group meetings, they may be up for consideration of termination from the group.
+
+
+**HONESTY:** Much of what will be done in this module relies on the honesty and integrity of the members of Group 16. Not being honest will only slow down the Group's productivity and could be seen as having self interest that is outside of the Group’s main intentions.
+
+
+**LEADERSHIP:** As there is no set leader of Group 16, members must work together in initiating group work and setting times, to meet. 
