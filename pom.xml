@@ -6,7 +6,7 @@
 
     <groupId>com.napier.set08103</groupId>
     <artifactId>PopulationInformation</artifactId>
-    <version>Dev-1.0.0</version>
+    <version>Dev-1.0.1</version>
 
     <properties>
         <maven.compiler.source>10</maven.compiler.source>
