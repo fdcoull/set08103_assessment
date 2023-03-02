@@ -1,3 +1,12 @@
+# Population Information
+* Develop Build Status: ![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/fdcoull/set08103_assessment/main.yml?branch=develop&style=flat-square)
+
+* Master Build Status: ![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/fdcoull/set08103_assessment/main.yml?branch=master&style=flat-square)
+
+* License: [![LICENSE](https://img.shields.io/github/license/fdcoull/set08103_assessment?style=flat-square)](https://github.com/fdcoull/set08103_assessment/blob/master/LICENSE)
+
+* Release: [![Releases](https://img.shields.io/github/release/fdcoull/set08103_assessment/all.svg?style=flat-square)](https://github.com/fdcoull/set08103_assessment/releases)
+
 # Code of Conduct
 ### Software Engineering Methods SET 08103 - Group Project 16
 #### Jade Ruthven, Lewis Melrose, Finlay Coull, Ross Dougal
