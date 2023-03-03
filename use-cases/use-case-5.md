@@ -1,4 +1,4 @@
-# USE CASE: 4 Produce a Report on the Salary of Employees of a Given Role
+# USE CASE: 5 Provide employee details to finance
 
 ## CHARACTERISTIC INFORMATION
 
