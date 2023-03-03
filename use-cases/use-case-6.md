@@ -1,10 +1,10 @@
-# USE CASE: 4 Produce a Report on the Salary of Employees of a Given Role
+# USE CASE: 6 Employees details are provided to HR advisor so promotion can take place
 
 ## CHARACTERISTIC INFORMATION
 
 ### Goal in Context
 
-As an HR advisor I want to view and employee's details so that the employee's promotion request can be supported.
+As an HR advisor I want to view employee's details so that the employee's promotion request can be supported.
 ### Scope
 
 Company.
