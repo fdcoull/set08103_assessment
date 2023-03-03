@@ -1,10 +1,10 @@
-# USE CASE: 4 Produce a Report on the Salary of Employees of a Given Role
+# USE CASE: 7 Update employees details when necessary
 
 ## CHARACTERISTIC INFORMATION
 
 ### Goal in Context
 
-As an HR advisor I want to view and employee's details so that the employee's promotion request can be supported.
+As an HR advisor I want to update an employee's details so that employee's details are kept up-to-date.
 ### Scope
 
 Company.
@@ -15,28 +15,28 @@ Primary task.
 
 ### Preconditions
 
-We know the employee.  Database contains current employee details.
+We know the employee.  Database must be updated with new information.
 
 ### Success End Condition
 
-Details are provided to HR advisor so promotion request can be made.
+Details are provided to database administrators so they can update the system.
 ### Failed End Condition
 
-No promotion takes place.
+Information is out of date.
 
 ### Primary Actor
 
-HR advisor.
+Database administrator.
 
 ### Trigger
 
-A request from management is made for a promotion to take place.
+An update is provided by an employee regarding changed personal details.
 
 ## MAIN SUCCESS SCENARIO
 
-1. HR advisor sends request to database administrators.
-2. HR advisor is provided with employee information.
-3. Employee promotion can take place.
+1. Employee sends new information to HR advisor
+2. HR advisor contacts database administrators with new information
+3. Database administrators update database.
 
 ## EXTENSIONS
 
