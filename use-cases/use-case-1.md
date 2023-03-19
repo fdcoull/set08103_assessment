@@ -1,13 +1,13 @@
-# USE CASE: 1 Produce a report on the salary of all employees.
+# USE CASE: 1 Produce a sorted report by largest to smallest on the population of an area.
 ## CHARACTERISTIC INFORMATION
 
 ### Goal in Context
 
-As an HR advisor I want to produce a report on the salary of all employees so that I can support financial reporting of the organisation.
+As a member of the organisation I want to produce a sorted report by largest to smallest on the population of an area.
 
 ### Scope
 
-Company.
+Organisation.
 
 ### Level
 
@@ -15,11 +15,11 @@ Primary task.
 
 ### Preconditions
 
-Database contains current employee salary data.
+Database contains current population data.
 
 ### Success End Condition
 
-A report is available for HR.
+A report is available for the member.
 
 ### Failed End Condition
 
@@ -27,19 +27,17 @@ No report is produced.
 
 ### Primary Actor
 
-Database administrator.
+Member of the organisation.
 
 ### Trigger
 
-A request for finance information is sent to HR.
+A member of the organisation requests population information.
 
 ## MAIN SUCCESS SCENARIO
 
-1. Salary information for all employees is requested
-2. HR advisor sends salary information request to database administrators
-3. Salary information is provided to HR advisor
-4. HR advisor produces report
-5. HR advisor provides report to department that requested
+1. Population information is requested from the system
+2. Data is retrieved from database
+3. Report is generated
 
 ## EXTENSIONS
 
@@ -47,8 +45,8 @@ None.
 
 ## SUB-VARIATIONS
 
-None.
+Options for area include world, continent, or region.
 
 ## SCHEDULE
 
-**DUE DATE**: Release 1.0
+**DUE DATE**: Release 1.0.0
