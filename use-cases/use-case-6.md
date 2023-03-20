@@ -1,10 +1,11 @@
-# USE CASE: 6 Employees details are provided to HR advisor so promotion can take place
+# USE CASE: 6 Produce a report on the top N populated capital cities in an area where N is provided by me.
 
 ## CHARACTERISTIC INFORMATION
 
 ### Goal in Context
 
-As an HR advisor I want to view employee's details so that the employee's promotion request can be supported.
+As a member of the organisation I want to produce a report on the top N populated caoital cities in an area where N is provided by me.
+
 ### Scope
 
 Company.
@@ -15,38 +16,38 @@ Primary task.
 
 ### Preconditions
 
-We know the employee.  Database contains current employee details.
+Database contains current population information.
 
 ### Success End Condition
 
-Details are provided to HR advisor so promotion request can be made.
+A report is available for the member.
+
 ### Failed End Condition
 
-No promotion takes place.
+No report is produced.
 
 ### Primary Actor
 
-HR advisor.
+Member of the organisation.
 
 ### Trigger
 
-A request from management is made for a promotion to take place.
+A member of the organisation requests population information.
 
 ## MAIN SUCCESS SCENARIO
 
-1. HR advisor sends request to database administrators.
-2. HR advisor is provided with employee information.
-3. Employee promotion can take place.
+1. A report is requested on the top N populated capital cities in an area where N is provided by me.
+2. Data is retrieved from database.
+3. Report is generated and provided back to the user.
 
 ## EXTENSIONS
 
-3. **Database administrators do not respond**:
-    1. Send repeat request to administrators.
+None.
 
 ## SUB-VARIATIONS
 
-None.
+Options for area include world, continent, or region.
 
 ## SCHEDULE
 
-**DUE DATE**: Release 1.0
+**DUE DATE**: Release 1.0.0
