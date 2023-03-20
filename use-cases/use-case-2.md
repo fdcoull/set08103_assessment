@@ -49,4 +49,4 @@ Options for area include world, continent, or region.
 
 ## SCHEDULE
 
-**DUE DATE**: Release 1.0
+**DUE DATE**: Release 1.0.0

@@ -1,10 +1,10 @@
-# USE CASE: 3 Produce a Report on the Salary of Employees in a given department
+# USE CASE: 3 Produce a report on all the cities in an area organised by largest population to smallest.
 
 ## CHARACTERISTIC INFORMATION
 
 ### Goal in Context
 
-As an department manager I want to produce a report on the salary of employees in my department so that I can support financial reporting for my department.
+As a member of the organisation I want to produce a report on all the cities in an area organised by largest population to smallest.
 
 ### Scope
 
@@ -16,11 +16,11 @@ Primary task.
 
 ### Preconditions
 
-We know the department.  Database contains current employee salary data.
+Database contains current population data.
 
 ### Success End Condition
 
-A report is available for department manager.
+A report is available for the member.
 
 ### Failed End Condition
 
@@ -28,28 +28,27 @@ No report is produced.
 
 ### Primary Actor
 
-Database administrator.
+Member of the organisation.
 
 ### Trigger
 
-A request for finance information is sent to HR.
+A member of the organisation requests population information.
 
 ## MAIN SUCCESS SCENARIO
 
-1. Department manager request salary information for employees in a department.
-2. HR advisor captures name of the department to get salary information for.
-3. HR advisor extracts current salary information of all employees of the given department.
-4. HR advisor provides report to department manager.
+1. A report is requested on all the cities in an area organised by largest population to smallest.
+2. Data is retrieved from database
+3. Report is generated and provided back to the user
 
 ## EXTENSIONS
 
-3. **Department does not exist**:
-    1. HR advisor informs department manager no department exists.
+None.
 
 ## SUB-VARIATIONS
 
 None.
+Options for area include world, continent, region, country, or district.
 
 ## SCHEDULE
 
-**DUE DATE**: Release 1.0
+**DUE DATE**: Release 1.0.0
