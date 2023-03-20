@@ -46,7 +46,6 @@ None.
 
 ## SUB-VARIATIONS
 
-None.
 Options for area include world, continent, region, country, or district.
 
 ## SCHEDULE
