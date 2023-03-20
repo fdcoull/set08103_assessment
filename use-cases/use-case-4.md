@@ -36,11 +36,6 @@ A member of the organisation requests population information.
 
 ## MAIN SUCCESS SCENARIO
 
-1. Finance request salary information for a given role.
-2. HR advisor captures name of the role to get salary information for.
-3. HR advisor extracts current salary information of all employees of the given role.
-4. HR advisor provides report to finance.
-
 1. A report is requested on the top N populated cities in an area where N is provided by the requester.
 2. Data is retrieved from database
 3. Report is generated and provided back to the user

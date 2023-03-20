@@ -1,10 +1,11 @@
-# USE CASE: 5 Provide employee details to finance
+# USE CASE: 5 Produce a report on all the capital cities in an area organised by largest population to smallest.
 
 ## CHARACTERISTIC INFORMATION
 
 ### Goal in Context
 
-As an HR advisor I want to add a new employee's details so that I can ensure the new employee is paid.
+As a member of the organisation I want to produce a report on all the capital cities in an area organised by largest population to smallest.
+
 ### Scope
 
 Company.
@@ -15,40 +16,38 @@ Primary task.
 
 ### Preconditions
 
-We know the role.  Database contains current employee salary data.
+Database contains current population information.
 
 ### Success End Condition
 
-Details are available for finance to make payment to employee.
+A report is available for the member.
 
 ### Failed End Condition
 
-No payment is made.
+No report is produced.
 
 ### Primary Actor
 
-Finance.
+Member of the organisation.
 
 ### Trigger
 
-A request for finance information is sent to employee.
+A member of the organisation requests population information.
 
 ## MAIN SUCCESS SCENARIO
 
-1. HR advisor requests payment information from employee.
-2. HR advisor contacts finance with payment information.
-3. Finance capture payment information
-4. Employee is paid by finance
+1. A report is requested on all the capital cities in an area organised by largest population to smallest.
+2. Data is retrieved from database.
+3. Report is generated and provided back to the user.
 
 ## EXTENSIONS
 
-3. **Employee does not respond**:
-    1. Send repeat request to employee.
+None.
 
 ## SUB-VARIATIONS
 
-None.
+Options for area include world, continent, or region.
 
 ## SCHEDULE
 
-**DUE DATE**: Release 1.0
+**DUE DATE**: Release 1.0.0
