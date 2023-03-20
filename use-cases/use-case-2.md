@@ -1,14 +1,13 @@
-# USE CASE: 2 Produce a Report on the Salary of Employees of a department
+# USE CASE: 2 Produce a report on the top N populated countries in an area where N is provided by me
 
 ## CHARACTERISTIC INFORMATION
 
 ### Goal in Context
 
-As an HR advisor I want to produce a report on the salary of employees in a department so that I can support financial reporting of the organisation.
-
+As a member of the organisation I want to produce a report on the top N populated countries in an area where N is provided by me.
 ### Scope
 
-Company.
+Organisation.
 
 ### Level
 
@@ -16,11 +15,11 @@ Primary task.
 
 ### Preconditions
 
-We know the department.  Database contains current employee salary data.
+Database contains population data.
 
 ### Success End Condition
 
-A report is available for HR to support financial reporting.
+A report is available for the member.
 
 ### Failed End Condition
 
@@ -28,26 +27,25 @@ No report is produced.
 
 ### Primary Actor
 
-HR Advisor.
+Member of the organisation.
 
 ### Trigger
 
-A request for finance information is sent to database administrators.
+A member of the organisation requests population information.
 
 ## MAIN SUCCESS SCENARIO
 
-1. HR request salary information for a given department from database administrators.
-2. HR receives salary information and produces a report.
-3. HR sends report to recipient.
+1. A report is requested on the top N populated countries in an area where N is provided by the requester
+2. Data is retrieved from the database
+3. Report is generated and provided back to the user
 
 ## EXTENSIONS
 
-3. **Department does not exist**:
-    1. Database administrators inform HR no department exists.
+None.
 
 ## SUB-VARIATIONS
 
-None.
+Options for area include world, continent, or region.
 
 ## SCHEDULE
 

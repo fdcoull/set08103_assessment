@@ -35,9 +35,9 @@ A member of the organisation requests population information.
 
 ## MAIN SUCCESS SCENARIO
 
-1. Population information is requested from the system
+1. A report is requested on the largest to smallest population of an area
 2. Data is retrieved from database
-3. Report is generated
+3. Report is generated and provided back to the user
 
 ## EXTENSIONS
 
